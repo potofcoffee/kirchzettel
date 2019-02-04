@@ -81,7 +81,7 @@ class KirchzettelDocument extends AbstractDocument
     {
         // headings
         $this->renderParagraph(self::HEADING1, [['Evang. Kirchengemeinde', ['size' => 27]]]);
-        $this->renderParagraph(self::HEADING2, [["   \t      Tailfingen", ['size' => 27]]]);
+        $this->renderParagraph(self::HEADING2, [["   \t   Tailfingen", ['size' => 27]]]);
         $this->renderParagraph();
 
         $lastDay = '';
