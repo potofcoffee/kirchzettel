@@ -1,0 +1,10 @@
+.gitignore
+composer.lock
+vendor
+vendor/
+vendor/*
+.idea
+.idea/
+.idea/*
+Configuration/Kirchzettel.yaml
+test*.html
