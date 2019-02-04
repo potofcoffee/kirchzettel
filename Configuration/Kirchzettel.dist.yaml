@@ -1,0 +1,70 @@
+calendar:
+  sharepoint:
+    url: 'https://.../_vti_bin/Lists.asmx&kalGuid=###GUID###'
+    guid: '{...}'
+  events:
+    sanitize:
+      location:
+        'GHM ': 'Gemeindehaus Moltkestraße, '
+        'GHM': 'Gemeindehaus Moltkestraße'
+        'PMH': 'Philipp-Matthäus-Hahn-Kirche'
+        'Saal Erlöserkirche': 'Erlöserkirche, Gemeindesaal'
+      title:
+        'GD': 'Gottesdienst'
+        'gd ': 'gottesdienst '
+output:
+  Bekanntgaben:
+    layout:
+      page:
+        orientation: portrait
+        pageSizeH: 21
+        pageSizeW: 14.85
+        marginTop: '0.75'
+        marginBottom: '0.25'
+        marginLeft: 2
+        marginRight: '0.8'
+    defaults:
+      fontName: Arial
+      fontSize: 11
+    liturgicalTexts:
+      funeral:
+          - Wir nehmen teil an der Trauer der Angehörigen und befehlen die Toten, die Trauernden und uns der Güte Gottes an.
+          - '_Wir bekennen gemeinsam:'
+          - |-
+            Unser keiner lebt sich selber, und keiner stirbt sich selber.
+
+            Leben wir, so leben wir dem Herrn;
+            sterben wir, so sterben wir dem Herrn.
+            Darum: Wir leben oder sterben, so sind wir des Herrn.
+          - |-
+            *Denn dazu ist Christus gestorben und wieder lebendig geworden, dass er über Tote und Lebende Herr sei.
+            Amen.
+      wedding: |-
+        *Vater im Himmel,
+        wir bitten für dieses Hochzeitspaar.
+        Begleite sie auf ihrem gemeinsamen Weg.
+        Lass sie deine Liebe erfahren
+        und stärke ihre Liebe zueinander
+        in guten und in schweren Tagen.
+      baptism: |-
+        *Christus hat der Kirche den Auftrag gegeben:
+        Gehet hin und machet zu Jüngern alle Völker
+        und taufet sie auf den Namen des Vaters und
+        des Sohnes und des Heiligen Geistes.
+    otherTexts:
+      afterEvents: Die Veranstaltungen der kommenden Woche bitten wir den aushängenden Kirchzetteln zu entnehmen oder schauen Sie dazu im Internet auf unsere Seite www.tailfingen.de.
+  Kirchzettel:
+    layout:
+      page:
+        marginTop: '1.9'
+        marginBottom: '0.25'
+        marginLeft: '1.59'
+        marginRight: '0.25'
+    defaults:
+      fontName: 'Century Gothic'
+      fontSize: 10
+
+
+
+
+        
